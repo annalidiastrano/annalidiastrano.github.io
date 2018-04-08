@@ -205,6 +205,14 @@ body.fullpage p {
   color: #47bec7;
 }
 
+@media (max-width: 500px) {
+  .profile-intro {
+    font-size: 32px !important;
+    line-height: 48px !important;
+    letter-spacing: 0;
+  }
+}
+
 .profile-intro .tagline {
   color: #CCCCCC;
 }
