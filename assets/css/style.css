@@ -175,7 +175,8 @@ body.fullpage {
 
 .profile-bio {
   padding: 40px 0 40px 0;
-  font-family: 'Lora', serif; }
+  text-align: left;
+}
   @media (max-width: 1200px) {
     .profile-bio {
       padding: 30px 0; } }
@@ -184,6 +185,10 @@ body.fullpage {
       padding: 20px 0; } }
   .profile-bio p {
     color: #848d96; }
+  .profile-bio p b {
+    font-weight: bolder;
+    color: #CCCCCC !important;
+  }
   .profile-bio a {
     color: #848d96;
     transition-duration: 0.5s;
